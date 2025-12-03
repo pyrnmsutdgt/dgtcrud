@@ -8,11 +8,11 @@ composer -install
 3.สร้างไฟล์ .env แล้ว คัดลอก ข้อมูลในไฟล์ .env.example มาวางใน .env แล้วแก้ส่วนต่อไปนี้
 "
 DB_CONNECTION=sqlite
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=laravel
-# DB_USERNAME=root
-# DB_PASSWORD=
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=root
+DB_PASSWORD=
 "
 
 ไปเป็น
