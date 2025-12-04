@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\EnrollmentDetail; // Model ของ View
-use App\Models\Enrollment;       // Model ของ Table จริง
+use App\Models\EnrollmentDetail; 
+use App\Models\Enrollment;       
 use App\Models\Student;
 use App\Models\Course;
 use App\Models\Department;

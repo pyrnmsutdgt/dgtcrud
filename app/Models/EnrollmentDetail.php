@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class EnrollmentDetail extends Model
 {
-    public $table = 'enrollment_details'; // บอก Laravel ว่านี่คือ View
-    public $timestamps = false; // View ไม่มี created_at/updated_at ของตัวเอง
+    //
+    public $table = 'enrollment_details'; // ชี้ไปที่ View
+    public $timestamps = false; // View ไม่มี timestamp ของตัวเอง
+    // ใช้สำหรับ Read (R) เท่านั้น
 }
